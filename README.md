@@ -32,13 +32,13 @@ throw mistake('Foo', {
 ### name and hash and constructor
 
 ```js
+var mistake = require('mistake');
+
 function MyError(message) {
   this.name = 'MyError';
   this.message = message || 'Default Message';
   this.bar = 'foo';
 }
-
-var mistake = require('mistake');
 
 throw mistake('Foo', {
   message: 'I just fooed',
