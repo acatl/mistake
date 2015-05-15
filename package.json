@@ -1,6 +1,6 @@
 {
   "name": "mistake",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "create error objects",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,19 @@
     "name": "Acatl Pacheco",
     "email": "acatl.pacheco@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acatl/mistake"
+  },
+  "bugs": {
+    "url": "https://github.com/acatl/mistake/issues"
+  },
+  "keywords": [
+    "error",
+    "throw",
+    "create errors",
+    "custom errors"
+  ],
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
